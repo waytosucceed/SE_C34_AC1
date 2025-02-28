@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Activity 1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /* Reset and base styles */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      table, th,td{
+  border:1px solid black;
+}
+      body {
+        font-family: "Work Sans", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.6;
+        background-color: #f0f3f5; /* Light gray */
+        color: #333; /* Dark gray */
+        margin: 0;
+      }
+
+      .container {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #bbe9ff; /* Light blue */
+        /* padding: 20px; */
+      }
+
+      .header{
+  height:5%;
+  width:100%
+}
+
+      .company-logo {
+        height: 100%;
+      }
+
+      .content-container {
+        margin-top: 1rem;
+        width: 100%;
+        max-width: 1250px;
+        background-color: #ffffff; /* White */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        border-radius: 8px; /* Rounded corners */
+
+        img {
+          /* max-width: 100%; */
+          /* width: 45%; */
+          display: block;
+          margin: 1rem auto;
+          border-radius: 8px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+      }
+
+      .lesson-title {
+        font-size: 2rem;
+        font-weight: 700;
+        color: #333; /* Dark gray */
+        margin-bottom: 1rem;
+        text-align: center;
+        text-decoration: underline; /* Underline style */
+      }
+      .button-container {
+  position: fixed; /* Fix the button to the screen */
+  top: 10%; /* Set distance from top */
+  right: 10%; /* Set distance from left */
+  z-index: 100; /* Ensure the button stays above other content */
+}
+      .button {
+        
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 15px;
+        background-color: #4CAF50; /* Green */
+        color: white;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 1.4rem;
+        cursor: pointer;
+        text-align: center;
+      }
+
+      .probing-question {
+        margin-top: 1.5rem;
+        background-color: #f0f8ff; /* Light blue */
+        padding: 10px;
+        border-radius: 8px;
+      }
+
+      .probing-question div {
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #444; /* Dark gray */
+        margin-bottom: 5px;
+      }
+
+      .probing-question p {
+        color: #666; /* Medium gray */
+      }
+
+      h2,
+      h3,
+      h4 {
+        color: #333; /* Dark gray */
+        margin-top: 1.5rem;
+        font-weight: bold; /* Bold font for all headings */
+      }
+
+      .learn-about {
+        background-color: palegreen;
+        border-radius: 1rem;
+        text-align: left;
+        margin: 1rem;
+        padding: 1rem 0;
+        li {
+          list-style-position: inside;
+          padding-left: 1rem;
+        }
+      }
+      footer {
+        width: 100%;
+      background: linear-gradient(145deg, #e6e6e6, #ffffff);
+      border-radius: 15px;
+      box-shadow: 5px 5px 15px #b3b3b3, -5px -5px 15px #ffffff;
+      padding: 20px;
+      text-align: center;
+      margin-top: 30px;
+      color: #333;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    footer::after {
+      content: '';
+      position: relative;
+      
+      width: 100%;
+      height: 100%;
+      background: rgba(255, 255, 255, 0.3);
+      backdrop-filter: blur(10px);
+      /* z-index: 1; */
+      border-radius: 15px;
+    }
+
+    footer span {
+      position: relative;
+    }
+
+      p,
+      li {
+        color: #555; /* Medium gray */
+        font-size: 1.4rem;
+      }
+
+      ol,
+      ul {
+        margin-bottom: 1.5rem;
+        padding-left: 20px;
+      }
+      .button-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px; /* Optional */
+    }
+    table {
+            width: 50%;
+            margin: auto;
+            border-collapse: collapse;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        th, td {
+            padding: 12px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        tr:hover {
+            background-color: #ddd;
+        }
+      hr {
+        border: none; /* Remove default border */
+        height: 2px; /* Set the height of the horizontal rule */
+        background-color: palevioletred; /* Color of the rule */
+      }
+      @media (max-width: 768px) {
+        .company-logo {
+          height: 75%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header" style="background-color:white;width:100%; box-shadow:5px 5px 10px rgb(0, 0, 0);  padding-bottom:10px;">
+        <img src="assests/logo/Logo_last.png" width="5%" style="float:left; margin-top:1.5%;" class="img-responsive">
+        <span> <img src="assests/logo/header.png" width="30%" height="80%" class="img-responsive"></span>
+      </div>
+
+      <div class="content-container">
+       
+        <div class="lesson-title">Introduction To Percentage</div>
+        <div>
+          <h2 style="color: blueviolet;">Percentages</h2>
+          <p>
+            A percentage is a ratio that represents a part of a whole, out of 100. The % symbol stands for "per hundred."
+            <br><br><b>For example</b>, 50% means 50 out of 100, or half of a whole.
+
+          </p>
+          <h2 style="color: blueviolet;">How to Calculate Percentages?</h2>
+          <p>
+            To find a percentage, use this formula:
+<br><br>Percentage = <math><mfrac bevelled="true"><mfrac><msup><mi style="font-size: 1.2rem;">Part</mi></msup></mfrac><mfrac><msup><mi style="font-size: 1.2rem;">Whole</mi></msup></mfrac></mfrac></math> × 100
+<br><br><b style="color: red;">Example:</b> Finding a Percentage
+<br>You scored 21 out of 24 in a test. What percentage did you get?
+<br>Part = 21, Whole = 24
+<br><br><math><mfrac bevelled="true"><mfrac><msup><mi style="font-size: 1.2rem;">21</mi></msup></mfrac><mfrac><msup><mi style="font-size: 1.2rem;">24</mi></msup></mfrac></mfrac></math> × 100 = 0.875 × 100 = 87.5%
+<br><br>So, you got 87.5% on your test!
+<br><br><b style="color: red;">Example 2:</b> Finding a Missing Part or Whole
+<br>If 45% of a class plays sports and there are 117 such students, how many students are in the class?
+<br><br>Percentage (%) = 45, Part = 117, Whole = ?
+<br><b>Using the formula:</b>
+<br><br>Whole= <math><mfrac bevelled="true"><mfrac><msup><mi style="font-size: 1.2rem;">Part</mi></msup></mfrac><mfrac><msup><mi style="font-size: 1.2rem;">Percentage</mi></msup></mfrac></mfrac></math> × 100
+<br><br>Whole= <math><mfrac bevelled="true"><mfrac><msup><mi style="font-size: 1.2rem;">117</mi></msup></mfrac><mfrac><msup><mi style="font-size: 1.2rem;">45</mi></msup></mfrac></mfrac></math> × 100 = 2.6 × 100 = 260
+<br><br>So, there are 260 students in the class.
+<br><b style="color: red;">Example:</b> Finding Complementary Percentages
+<br>Since a whole is 100%, we can find missing percentages by subtracting known values.
+<br><br>A bag has 25 marbles, and 56% of them are blue.
+<br>To find the red marbles:
+<br><br>100% − 56% = 44%
+<br><br>That is, 44% of 25 = 11
+<br><br>So, there are 11 red marbles.
+
+          </p>
+          <h2 style="color: blueviolet;">How to Convert a Ratio to a Percentage?</h2>
+          <p>
+            To convert a ratio to a percentage, follow these steps:
+          </p>
+          <ol>
+            <li>
+              Express the ratio as a fraction.
+            </li>
+            <li>
+              Convert the fraction to a decimal by dividing.
+            </li>
+            <li>
+              Multiply by 100 to get the percentage and put the percent sign %.
+            </li>
+          </ol>
+          <p>
+            <b style="color: red;">Example 1:</b> Convert 3:5 to Percentage
+            <br><br><b>Step 1:</b> Write as fraction = ⅗
+            <br><b>Step 2:</b> Convert to percentage: (⅗) × 100 = 0.6 × 100 = 60%.
+
+          </p>
+
+          <h2 style="color: blueviolet;">Percentage of each part in a ratio</h2>
+          <p>
+            If a ratio is <b>a:b</b>, then the percentage of each part is:
+            <br><br><math><mfrac bevelled="true"><mfrac><msup><mi style="font-size: 1.2rem;">a</mi></msup></mfrac><mfrac><msup><mi style="font-size: 1.2rem;">a + b</mi></msup></mfrac></mfrac></math> × 100 and <math><mfrac bevelled="true"><mfrac><msup><mi style="font-size: 1.2rem;">b</mi></msup></mfrac><mfrac><msup><mi style="font-size: 1.2rem;">a + b</mi></msup></mfrac></mfrac></math> × 100
+            <br><br><b style="color: red;">Example:</b> Find the percentage of 3 in the ratio 3:2.
+
+            <br><br><math><mfrac bevelled="true"><mfrac><msup><mi style="font-size: 1.2rem;">3</mi></msup></mfrac><mfrac><msup><mi style="font-size: 1.2rem;">3 + 2</mi></msup></mfrac></mfrac></math> × 100 = 0.6 × 100 = 60% 
+          </p>
+        </div>
+      </div> 
+    
+      
+      <div class="button-container">
+        <a href="question.html" class="button">To Practice<br>Click Next</a>
+    </div>
+    </div>
+    <footer>
+      <span>Created By Team Way To Succeed</span>
+    </footer>
+  </body>
+</html>

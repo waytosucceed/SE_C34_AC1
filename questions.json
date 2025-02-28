@@ -1,0 +1,168 @@
+[
+  {
+    "questionNo": "Q1",
+    "question": "The ratio of the number of boys to the number of girls in a school is 11:9. What percentage of the total students are boys?",
+    "options": [
+      "45%",
+      "50%",
+      "55%",
+      "60%"
+    ],
+    "correct": 2
+  },
+  {
+    "questionNo": "Q2",
+    "question": "A factory produces three types of products (A, B, and C) in the ratio 7:5:8. If the total production is 8000 units, what percentage of the total production is of product B?",
+    "options": [
+      "20%",
+      "25%",
+      "30%",
+      "35%"
+    ],
+    "correct": 0
+  },
+  {
+    "questionNo": "Q3",
+    "question": "What percentage is shaded?<br><img width='40%' src='./assests/images/1.png'>",
+    "options": [
+      "50%",
+      "60%",
+      "55%",
+      "65%"
+    ],
+    "correct": 0
+  },
+  {
+    "questionNo": "Q4",
+    "question": "Out of two numbers, 25% of the greater number is equal to 50% of the smaller. If the sum of the two numbers is 150, what is the greater number?",
+    "options": [
+      "70",
+      "80",
+      "90",
+      "100"
+    ],
+    "correct": 3
+  },
+  {
+    "questionNo": "Q5",
+    "question": "A class has 35% boys and the rest are girls. If there are 130 girls, how many students are in the class?",
+    "options": [
+      "180",
+      "200",
+      "220",
+      "240"
+    ],
+    "correct": 1
+  },
+  {
+    "questionNo": "Q6",
+    "question": "If 25% of a number is 50, what is the number?",
+    "options": [
+      "150",
+      "180",
+      "200",
+      "220"
+    ],
+    "correct": 2
+  },
+  {
+    "questionNo": "Q7",
+    "question": "A turtle is walking along the periphery of a regular polygon. If it starts from point X and moves 48% of the total distance in the clockwise direction, which side will it reach?<br><img width='50%' src='./assests/images/2.png'>",
+    "options": [
+      "Side B",
+      "Side C",
+      "Side D",
+      "Side E"
+    ],
+    "correct": 1
+  },
+  {
+    "questionNo": "Q8",
+    "question": "If a number m is 12% less than another number n, and n is 15% more than 180, what is the value of m?",
+    "options": [
+      "182.16",
+      "163.98",
+      "162.19",
+      "164.76"
+    ],
+    "correct": 0
+  },
+  {
+    "questionNo": "Q9",
+    "question": "Water expands by 4% when it freezes. How much water is required to obtain 104 cm³ of ice?",
+    "options": [
+      "96 cm³",
+      "98 cm³",
+      "100 cm³",
+      "102 cm³"
+    ],
+    "correct": 2
+  },
+  {
+    "questionNo": "Q10",
+    "question": "Ethan receives a weekly allowance from his parents. <br>He spends $15.20 on books.<br> Then, he uses 30% of the remaining money on snacks.<br> If Ethan has $10.64 left, how much pocket money was he originally given?",
+    "options": [
+      "$28.00",
+      "$30.40",
+      "$32.40",
+      "$35.20",
+      "$37.00"
+    ],
+    "correct": 1
+  },
+  {
+    "questionNo": "Q11",
+    "question": "A vendor had some bananas. He sold 25% of them and still had 225 left. How many bananas did he originally have?",
+    "options": [
+      "280",
+      "300",
+      "320",
+      "400"
+    ],
+    "correct": 1
+  },
+  {
+    "questionNo": "Q12",
+    "question": "What percentage of numbers from 1 to 50 have 3 or 7 in the unit's digit?",
+    "options": [
+      "16%",
+      "18%",
+      "20%",
+      "22%"
+    ],
+    "correct": 2
+  },
+  {
+    "questionNo": "Q13",
+    "question": "If P = a% of b and Q = b% of a, then which of the following is true?",
+    "options": [
+      "P is greater than Q",
+      "P is less than Q",
+      "Relationship cannot be determined",
+      "P = Q"
+    ],
+    "correct": 3
+  },
+  {
+    "questionNo": "Q14",
+    "question": "What percent of the figure is shaded?<br><img width='60%' src='./assests/images/3.png'>",
+    "options": [
+      "33%",
+      "43%",
+      "50%",
+      "66%"
+    ],
+    "correct": 2
+  },
+  {
+    "questionNo": "Q15",
+    "question": "Three candidates, Pankaj, Rohit & Sohan, contested an election and received 2200, 4500, and 5300 votes respectively. What percent of the total votes did Pankaj get?",
+    "options": [
+      "15%",
+      "20%",
+      "25%",
+      "30%"
+    ],
+    "correct": 1
+  }
+]
